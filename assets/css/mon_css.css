@@ -1,0 +1,93 @@
+.btn-yellow {
+	border-color: #e1b000;
+	color: #e1b000;
+}
+
+.btn-yellow:hover {
+	border-color: #e1b000;
+	color: #e1b000;
+}
+
+.btn-yellow.btn-fill{
+	background-color: #e1b000;
+	border-color: #e1b000;
+	color: white;
+}
+
+.btn-yellow.btn-fill:hover{
+	background-color: #e1b000;
+	border-color: #e1b000;
+	color: white;
+}
+
+.zone_progress {
+	width: 400px;
+}
+
+.texte_jaune {
+	color : #e1b000;
+}
+
+.fond_jaune {
+	background-color : #e1b000;
+}
+
+.panel-body > h4:first-child {
+	margin-top: 0px;
+}
+
+.glyphicon.step.done {
+	color: #e1b000;
+}
+
+.glyphicon.step {
+	color: rgba(127, 127, 127, 0.15);
+	padding-right: 30px;
+}
+
+.floatRight {
+	float:right;
+}
+
+.floatLeft {
+	float:left;
+}
+
+.disabled {
+	color: gray;
+	border-color: gray;
+	background-color: lightgray;
+}
+
+.alone {
+	border-radius: 4px !important;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.glyphAccordeon {
+	margin-right: 10px;
+}
+
+.numeroEtape {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.panel-heading.active, .panel-heading.active a:focus, .panel-heading.active a:hover  {
+	color: #e1b000;
+}
+
+.panel-title.disabled {
+	
+}
