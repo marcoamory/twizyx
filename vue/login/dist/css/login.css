@@ -1,0 +1,148 @@
+body {
+    padding-top: 10px;
+    background-color: #171717;
+}
+.panel-login {
+	border-color: #FECE1A;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.panel-login input[type=text], .panel-login input[type=password], .panel-login input[type=email] {
+	background-color: transparent;
+}
+
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #5d5d5d;
+}
+input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+  color: #5d5d5d;
+}
+input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+  color: #5d5d5d;
+}
+input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="email"]:-moz-placeholder { /* Firefox 18- */
+  color: #5d5d5d;
+}
+
+
+.panel-login>.panel-body {
+	background-color: #FECE1A;
+	border: 0px;
+}
+
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #171717;
+	text-align:center;
+}
+
+.panel-login>.panel-footer {
+	color: #cdcdcd;
+	font-weight: 300;
+	background-color: #171717;
+	text-align:center;
+	border: 0px;
+}
+
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #cecece;
+	font-weight: bold;
+	font-size: 13px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #FECE1A;
+	font-size: 20px;
+}
+
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #5d5d5d;
+	color: #5d5d5d;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #5d5d5d;
+	color: #5d5d5d;
+}
+.btn-login {
+	background-color: #171717;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: 200;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #464646;
+}
+.btn-login:hover,
+.btn-login:focus {
+	background-color: #262626;
+	border-color: black;
+	font-weight: 500;
+	color: #fff !important;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #171717;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: 200;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #464646;
+}
+.btn-register:hover,
+.btn-register:focus {
+	background-color: #262626;
+	border-color: black;
+	font-weight: 500;
+	color: #fff !important;
+}
+
+.slogan {
+	color:#dadada;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.slogan .hidden {
+	display: none;
+}
+
+.slogan .show {
+	display: block;
+}
+
+.logoHautGauche {
+	position: relative;
+	top: 0px;
+	left: 10px;
+	width: 150px;
+}
