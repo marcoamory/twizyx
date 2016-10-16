@@ -172,6 +172,8 @@
 						<div id="collapseRDVInstall" class="panel-collapse collapse">
 							<div class="panel-body">
 								<input type="text" value="16-10-2016" class="datepicker">
+								
+								<p> Ceci est ma seconde modification MacBook Air </p>
 							</div>
 						</div>
 					</div>
