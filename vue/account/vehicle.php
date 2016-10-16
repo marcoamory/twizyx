@@ -173,7 +173,8 @@
 							<div class="panel-body">
 								<input type="text" value="16-10-2016" class="datepicker">
 								
-								<p> Ceci est ma seconde modification MacBook Air </p>
+								Veuillez sélectionner la date et l'heure à laquelle vous souhaitez faire la modification.
+								
 							</div>
 						</div>
 					</div>
