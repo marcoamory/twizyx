@@ -171,7 +171,7 @@
 						</div>
 						<div id="collapseRDVInstall" class="panel-collapse collapse">
 							<div class="panel-body">
-								<input type="text" value="02-16-2012" class="datepicker">
+								<input type="text" value="16-10-2016" class="datepicker">
 							</div>
 						</div>
 					</div>
